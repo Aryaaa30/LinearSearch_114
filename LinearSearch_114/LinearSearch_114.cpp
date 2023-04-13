@@ -31,6 +31,13 @@ void LinearSearch()
 {
     char ch;
     int ctr;
+
+    do
+    {
+        cout << "\nEnter the Element you want to search : "; //Langkah no. 1 Algoritma
+        int item;
+        cin >> item;
+    }
 }
 
 
