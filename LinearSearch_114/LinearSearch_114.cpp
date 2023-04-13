@@ -37,6 +37,17 @@ void LinearSearch()
         cout << "\nEnter the Element you want to search : "; //Langkah no. 1 Algoritma
         int item;
         cin >> item;
+
+        ctr = 0;
+        for (i = 0; i < n; i++)                              //Langkah no. 2,3 dan 4 Algoritma
+        {
+            ctr++;
+            if (arr[i] == item)                              //Langkah no. 5 Algoritma
+            {
+                cout << "\n" << item << "found at position " << (i + 1) << endl;
+                break;
+            }
+        }
     }
 }
 
